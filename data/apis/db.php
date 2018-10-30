@@ -7,7 +7,7 @@ require_once('adodb/adodb.inc.php');
 require_once('adodb/adodb-active-record.inc.php');
 
 $db_type  = 'mysqli';
-$db_host  = 'localhost';
+$db_host  = '192.168.0.17';
 $db_user  = 'root';
 $db_pass  = '';
 $db_name  = 'todayict';

@@ -159,11 +159,7 @@
                                                         <div class="col-row">
                                                             <div class="col-one-fifth sm-col-one-fifth cats">
                                                                 <ul>
-																	<li><a href="#">Appliances</a></li>
-																	<li><a href="#">Computers</a></li>
-																	<li><a href="#">Gaming</a></li>
-																	<li><a href="#">Home Entertainment</a></li>
-																	<li><a href="#">Internet</a></li>
+																	 <?php echo Header::how_to();?>
                                                                 </ul>
                                                             </div>
 															<div class="col-one-fifth sm-col-one-fifth cats">
@@ -200,11 +196,7 @@
                                                         <div class="col-row">
                                                             <div class="col-one-fifth sm-col-one-fifth cats">
                                                                 <ul>
-																	<li><a href="#">Best Smart Home Devices</a></li>
-																	<li><a href="#">Guide To Smart Living</a></li>
-																	<li><a href="news.html">News</a></li>
-																	<li><a href="#">Tour Our Apartments</a></li>
-																	<li><a href="#">Tour Our Smart House</a></li>
+																	 <?php echo Header::smarthome();?>
                                                                 </ul>
                                                             </div>
 															<div class="col-one-fifth sm-col-one-fifth cats">
@@ -249,12 +241,8 @@
                                                         <div class="col-row">
                                                             <div class="col-one-fifth sm-col-one-fifth cats">
                                                                 <ul>
-																	<li><a href="#">Best Cars</a></li>
-																	<li><a href="news.html">News</a></li>
-																	<li><a href="#">Reviews</a></li>
-																	<li><a href="#">Recalls</a></li>
-																	<li><a href="pictures.html">Pictures</a></li>
-																					</ul>
+																	 <?php echo Header::cars();?>
+																</ul>
                                                             </div>
 															<div class="col-one-fifth sm-col-one-fifth cats">
                                                                 <ul>
@@ -301,11 +289,7 @@
                                                         <div class="col-row">
                                                             <div class="col-one-fifth sm-col-one-fifth cats">
                                                                 <ul>
-																	<li><a href="news.html">The CheapsKate</a></li>
-																	<li><a href="news.html">Best Tech Under $50</a></li>
-																	<li><a href="news.html">Best VPN Services</a></li>
-																	<li><a href="news.html">Best Web Hosting</a></li>
-																	<li><a href="news.html">Best Password Manager</a></li>
+																	 <?php echo Header::deals();?>
                                                                 </ul>
                                                             </div>
 															<div class="col-one-fifth sm-col-one-fifth cats">
