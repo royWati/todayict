@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+<table name="mtp_users">
+  <descr> users table</descr>
+  <field name="id"     		type="I" size="10"   ><KEY/><NOTNULL/></field>
+  <field name="nationalid" 	type="C" size="20"   ><NOTNULL/></field>
+  <field name="name"   		type="C" size="100"  ><NOTNULL/></field>
+  <field name="age"    		type="I" size="3"    ><NULL/></field>
+</table>
+</schema>
